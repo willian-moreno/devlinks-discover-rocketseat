@@ -1,7 +1,7 @@
 **Eae, Dev! 👊🏾**
+**Seja bem vindo(a) ✨🚀**
 
-# Seja bem vindo(a) ✨🚀
-## Projeto DevLinks
+# Projeto DevLinks
 ### Trilha Discover - Rocketseat
 
 ![Preview](./public/assets/img/cover.png)
