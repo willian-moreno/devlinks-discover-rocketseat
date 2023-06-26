@@ -1,8 +1,8 @@
-<p style="text-align: center;">Eae, Dev! 👊🏾</p>
-<p style="text-align: center;">Seja bem vindo(a) ✨🚀</p>
+<p align="center">Eae, Dev! 👊🏾</p>
+<p align="center">Seja bem vindo(a) ✨🚀</p>
 
-<h1 style="text-align: center;">DevLinks</h1>
-<h3 style="text-align: center;">Trilha Discover - Rocketseat</h3>
+<h1 align="center">DevLinks</h1>
+<h3 align="center">Trilha Discover - Rocketseat</h3>
 
 ![Preview](./public/assets/img/cover.png)
 
