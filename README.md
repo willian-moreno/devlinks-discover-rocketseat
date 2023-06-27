@@ -30,7 +30,7 @@ O projeto DevLinks é um portfólio/agregador de links do desenvolvedor, que pos
 
 <h3> 📌 Layout</h3>
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/oZjxBqng2YwWqDqRgplkVk/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=10%3A620&mode=dev). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 <h3> 📌 Considerações</h3> 
 
