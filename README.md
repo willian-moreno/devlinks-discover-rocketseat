@@ -4,7 +4,19 @@
 <h1 align="center">DevLinks</h1>
 <h3 align="center">Trilha Discover - Rocketseat</h3>
 
-![Preview](./public/assets/img/cover.png)
+<p align="center">
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-considerações">Considerações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+![Preview](./assets/img/cover.png)
 
 <h3>📌 Sobre</h3> 
 
@@ -16,6 +28,14 @@ O projeto DevLinks é um portfólio/agregador de links do desenvolvedor, que pos
 - Git;
 - Figma;
 
+<h3> 📌 Layout</h3>
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/oZjxBqng2YwWqDqRgplkVk/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=10%3A620&mode=dev). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
 <h3> 📌 Considerações</h3> 
 
 O projeto foi um ótimo consolidador de conhecimentos já adquiridos, uma forma eficaz de testar minhas habilidades, além de ter me desafiado ao construir, por exemplo, o componente switch sem auxílio de qualquer framework. Utilizei ferramentas do navegador para inspecionar as proporções do design system. Fica a dica de utilizar o plugin do navegador chamado 'VisBug' 😆.
+
+<h3> 📌 Licença</h3>
+
+Esse projeto está sob a licença MIT.
