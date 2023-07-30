@@ -1,7 +1,31 @@
+handleSwitchThemeEvents()
+
+function handleSwitchThemeEvents() {
+	/**
+	 * @type {HTMLInputElement | null}
+	 */
+	const switchTheme = document.getElementById("switch-toggle-theme")
+
+	if (!switchTheme) return
+
+	switchTheme.addEventListener("change", (event) => toggleTheme(event))
+	switchTheme.addEventListener("keydown", (event) => {
+		event.stopPropagation()
+		const { key, target } = event
+		if (key === "Enter") {
+			target.checked = !target.checked
+			toggleTheme(target)
+		}
+	})
+}
+
 /**
- * @param {EventTarget} target
+ * @param {Event} event
  */
-const toggleTheme = (target) => {
+function toggleTheme(event) {
+	event.stopPropagation()
+	const { target } = event
+
 	if (target.checked) {
 		document.body.classList.remove("dark")
 		return
@@ -9,21 +33,3 @@ const toggleTheme = (target) => {
 
 	document.body.classList.add("dark")
 }
-
-const handleSwitchThemeEvents = () => {
-	/**
-	 * @type {HTMLInputElement | null}
-	 */
-	const switchTheme = document.getElementById("switch-toggle-theme")
-	switchTheme && switchTheme.addEventListener("change", ({ target }) => toggleTheme(target))
-
-	switchTheme &&
-		switchTheme.addEventListener("keydown", ({ key, target }) => {
-			if (key === "Enter") {
-				target.checked = !target.checked
-				toggleTheme(target)
-			}
-		})
-}
-
-handleSwitchThemeEvents()
