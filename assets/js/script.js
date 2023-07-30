@@ -1,5 +1,4 @@
 handleSwitchThemeEvents()
-
 function handleSwitchThemeEvents() {
 	/**
 	 * @type {HTMLInputElement | null}
@@ -32,4 +31,31 @@ function toggleTheme(event) {
 	}
 
 	document.body.classList.add("dark")
+}
+
+const isSystemThemeDark = () => {
+	if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+		return true
+	}
+
+	return false
+}
+
+handleDefaultTheme()
+function handleDefaultTheme() {
+	/**
+	 * @type {HTMLInputElement | null}
+	 */
+	const switchTheme = document.getElementById("switch-toggle-theme")
+
+	if (!switchTheme) return
+
+	if (isSystemThemeDark()) {
+		document.body.classList.add("dark")
+		switchTheme.checked = false
+		return
+	}
+
+	document.body.classList.remove("dark")
+	switchTheme.checked = true
 }
